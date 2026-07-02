@@ -26,18 +26,19 @@ A machine learning project that predicts vehicle CO₂ emissions using Multiple 
 ```text
 CO2-Emission-Prediction/
 │
-├── main.py
+├── co2 prediction.py
 ├── co2.csv
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
 │
 └── images/
+    ├── Distribution of CO₂ Emissions.png
+    ├── actual_vs_predicted.png
     ├── correlation_heatmap.png
-    ├── engine_scatter.png
     ├── cylinder_scatter.png
-    ├── fuel_scatter.png
-    └── actual_vs_predicted.png
+    ├── engine_scatter.png
+    └── fuel_scatter.png
 ```
 
 ## Dataset
@@ -59,8 +60,8 @@ The dataset contains vehicle information used to estimate CO₂ emissions.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Matin-python/CO2-Emission-Prediction.git
-cd CO2-Emission-Prediction
+git clone https://github.com/Matin-python/CO2-Emission-Prediction-Linear-Regression.git
+cd CO2-Emission-Prediction-Linear-Regression
 ```
 
 ### 2. (Optional) Create a virtual environment
@@ -94,7 +95,7 @@ pip install -r requirements.txt
 Run the program:
 
 ```bash
-python main.py
+python co2 prediction.py
 ```
 
 The application will:
@@ -106,6 +107,26 @@ The application will:
 5. Predict CO₂ emissions for the test data.
 6. Predict the CO₂ emission of a sample vehicle.
 7. Display evaluation metrics and visualizations.
+
+## Results
+
+### Distribution of CO₂ Emissions
+
+![Distribution](images/Distribution of CO₂ Emissions.png)
+
+### Correlation Heatmap
+
+![Heatmap](images/correlation_heatmap.png)
+
+### Engine/Cylinder/Fuel Size vs CO₂ Emission
+
+![Engine](images/engine_scatter.png)
+![Cylinder](images/cylinder_scatter.png)
+![Fuel](images/fuel_scatter.png)
+
+### Actual vs Predicted
+
+![Prediction](images/actual_vs_predicted.png)
 
 ## Example Prediction
 
