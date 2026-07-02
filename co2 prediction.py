@@ -11,7 +11,11 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv('co2.csv')
 
-sns.countplot (x= 'out1', data= df)
+sns.histplot(df["out1"], bins=20, kde=True)
+plt.xlabel("CO₂ Emission (g/km)")
+plt.ylabel("Number of Vehicles")
+plt.title("Distribution of CO₂ Emissions")
+plt.show()
 
 plt.subplots(figsize = (6, 6))
 sns.heatmap(df.corr(), annot= True)
