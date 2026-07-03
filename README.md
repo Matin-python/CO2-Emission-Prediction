@@ -32,8 +32,8 @@ CO2-Emission-Prediction/
 ├── README.md
 ├── LICENSE
 │
-└── images/
-    ├── Distribution of CO₂ Emissions.png
+└── Images/
+    ├── Distribution_of_CO₂_Emissions.png
     ├── actual_vs_predicted.png
     ├── correlation_heatmap.png
     ├── cylinder_scatter.png
@@ -112,21 +112,21 @@ The application will:
 
 ### Distribution of CO₂ Emissions
 
-![Distribution](images/Distribution of CO₂ Emissions.png)
+![Distribution](Images/Distribution_of_CO₂_Emissions.png)
 
 ### Correlation Heatmap
 
-![Heatmap](images/correlation_heatmap.png)
+![Heatmap](Images/correlation_heatmap.png)
 
 ### Engine/Cylinder/Fuel Size vs CO₂ Emission
 
-![Engine](images/engine_scatter.png)
-![Cylinder](images/cylinder_scatter.png)
-![Fuel](images/fuel_scatter.png)
+![Engine](Images/engine_scatter.png)
+![Cylinder](Images/cylinder_scatter.png)
+![Fuel](Images/fuel_scatter.png)
 
 ### Actual vs Predicted
 
-![Prediction](images/actual_vs_predicted.png)
+![Prediction](Images/actual_vs_predicted.png)
 
 ## Example Prediction
 
