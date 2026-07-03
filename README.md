@@ -126,7 +126,7 @@ The application will:
 
 ### Actual vs Predicted
 
-![Prediction](Images/actual_vs_predicted.png)
+![Prediction](Images/actual_vs_prediction.png)
 
 ## Example Prediction
 
